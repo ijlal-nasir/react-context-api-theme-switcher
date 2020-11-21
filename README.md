@@ -6,7 +6,7 @@ This is a practical example of Context API in React.js by implementing Light and
 ## Installation Guide
 
 1. Clone the repo
-2. cd into the project directory
+2. Then, cd into the project directory
 3. Run yarn install or npm install 
-4. yarn start
+4. Yarn start
 
