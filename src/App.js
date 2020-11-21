@@ -1,10 +1,21 @@
+import { useContext } from 'react';
 import './App.css';
+import Profile from './components/Profile';
+import { ThemeContext } from './contexts/ThemeContext';
+
 
 function App() {
+
+	const { isLightTheme, light, dark } = useContext(ThemeContext);
+
+    const theme = isLightTheme ? light : dark;
+
 	return (
-		<div className="">
-			<h3>Hello, World!</h3>
-		</div>
+		
+		<main className="Container" style={{backgroundColor: theme.main}}>
+			<Profile />
+		</main>
+		
 	);
 }
 
