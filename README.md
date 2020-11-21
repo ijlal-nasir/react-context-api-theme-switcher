@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# React Context Api - Dark/Light Theme Switcher
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a practical example of Context API in React by implementing Light and Dark Theme.
 
 ## Available Scripts
 
