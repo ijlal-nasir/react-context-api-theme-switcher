@@ -10,3 +10,6 @@ This is a practical example of Context API in React.js by implementing Light and
 3. Run yarn install or npm install 
 4. Yarn start
 
+## Demo
+
+To see a live demo of the application visit [ Dark/Light Theme Using React Context API ](http://theme-context.surge.sh/)
